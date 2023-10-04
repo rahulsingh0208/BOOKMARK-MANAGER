@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+  margin-left: .3rem;
+  margin-right: .3rem;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  scrollbar-color: none;
+}
+
+body {
+  background-color: white;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-family: 'Young Serif', serif;
+}
+
+.icon- .icon {
+  font-size: 2rem;
+  color: black;
+}
+
+h6 {
+  color: rgb(1, 1, 1);
+  font-style: italic;
+}
+
+ul li a {
+  text-decoration: none;
+  color: rgb(83, 83, 164);
+  transition: all ease-in .1s;
+}
+
+ul li a:hover {
+  color: rgb(8, 16, 246);
+  cursor: pointer;
+}
+
+.footer {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 2px solid black;
+  width: 99.5%;
+  height: auto;
+  gap: 6px;
+  border-radius: 5px;
+  margin: 0;
+  background: linear-gradient(200deg, red, black, dimgrey, grey, black, red);
+  padding: 1%;
+  overflow: hidden;
+}
+
+.footer .footer_ {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-size-adjust: bolder;
+  font-size: .9rem;
+  width: 23%;
+  min-width: 200px;
+  min-height: 200px;
+  ;
+  height: 230px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: white;
+  transition: all ease-in-out .6s;
+  cursor: pointer;
+}
+
+.footer .footer_:hover {
+  scale: 1.1;
+
+}
+
+.footer .footer_ .about {
+  width: 95%;
+  height: 68%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.footer .footer_ .social {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 95%;
+  height: 25%;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 0 0 5px 5px;
+}
+
+.footer .footer_ .social .social_ i {
+  color: black;
+  font-size: 1.5em;
+  transition: all ease .5s;
+}
+
+.footer .footer_ .social .social_ i:hover {
+  color: blue;
+  scale: 1.2;
+}
+
+.footer .footer_ .social #snap i:hover {
+  color: rgba(141, 141, 37, 0.261);
+
+}
+
+.footer .footer_ .social #insta i:hover {
+  color: rgba(213, 31, 31, 0.98)
+}
+
+.footer .footer_ .social #facebook i:hover {
+  color: blue;
+}
+
+.footer .footer_ .social #gmail i:hover {
+  color: red;
+}
+
+.footer .footer_ h2 {
+  transition: all ease 1s;
+}
+
+.footer .footer_ h2:hover {
+  border-bottom: 2px solid black;
+  cursor: pointer;
+  color: bisque;
+  scale: 1.25;
+}
+
+.footer .footer_ .about .about_ {
+  background-color: transparent;
+  margin: .1rem;
+  width: 60%;
+  height: 6em;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  align-content: center;
+  color: black;
+  font-size: .68rem;
+  font-weight: 900;
+}
+
+.footer .footer_ .about .about_ h3 {
+  color: black;
+  font-size: .9rem;
+  transition: all ease-in-out 2s;
+}
+
+.footer .footer_ .about .about_ h3:hover {
+  scale: 1.2;
+  color: red;
+}
+
+.img_ {
+  padding: .1rem;
+  width: 40%;
+  height: 99%;
+  overflow: hidden;
+}
+
+.rahul {
+  width: 99%;
+  height: 95%;
+  border-radius: 10px;
+  padding: .1rem;
+  filter: grayscale(90%);
+  transition: all ease-out 2s;
+  cursor: pointer;
+}
+
+.rahul:hover {
+  filter: none;
+  scale: 1.2;
+
+  .img_ {
+    border-radius: 2px solid black;
+  }
+}
+
+.overflow {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  bottom: 0px;
+  top: 400px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: rgba(128, 128, 128, 0.423);
+  z-index: -100000;
+  padding-top: 6.5%;
+}
+
+.footer_:hover {
+  .overflow {
+    bottom: -1000px;
+    top: 180px;
+    transition: all ease 1s;
+
+  }
+}
+
+#overflow_ {
+  color: lightskyblue;
+  cursor: pointer;
+  transition: all ease-in-out 1s;
+}
+
+#overflow_:hover {
+  color: red;
+  scale: .9;
+  transform: translate(100px 20px);
+}
